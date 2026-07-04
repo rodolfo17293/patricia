@@ -154,7 +154,7 @@ p{text-wrap:pretty}
   box-shadow:var(--shadow);
   background:repeating-linear-gradient(135deg,#efe3dc,#efe3dc 10px,#f6ece6 10px,#f6ece6 20px);
 }
-.portrait-frame img{width:100%;height:100%;object-fit:cover}
+.portrait-frame img{width:100%;height:100%;object-fit:cover;object-position:center 8%}
 .hero h1{font-size:clamp(2.6rem,6.4vw,4.6rem);margin:.35em 0 .5em}
 .hero h1 em{font-style:italic;color:var(--rosa-profundo)}
 .hero .lede{font-size:clamp(1.05rem,2.2vw,1.28rem);color:var(--carbon-soft);font-weight:300;max-width:34ch;margin-bottom:2.2em}
