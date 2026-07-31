@@ -91,6 +91,27 @@ p{text-wrap:pretty}
 }
 .btn-ghost:hover{background:#fff;transform:translateY(-2px)}
 
+/* ---- magnetic CTA + corazón junto a "Agenda" ---- */
+.btn-magnetic{transition:transform .5s cubic-bezier(.34,1.56,.64,1),box-shadow .4s var(--ease),background .4s var(--ease)}
+.agenda-word{position:relative;display:inline-block}
+.agenda-heart{
+  display:inline-block;
+  width:0;height:14px;margin-right:0;overflow:hidden;
+  vertical-align:-2px;
+  opacity:0;
+  transform:scale(.3) translateY(3px);
+  transition:opacity .35s var(--ease-soft),transform .35s var(--ease-soft),width .35s var(--ease-soft),margin-right .35s var(--ease-soft);
+}
+.btn-magnetic:hover .agenda-heart,
+.btn-magnetic:focus-visible .agenda-heart{
+  opacity:1;
+  transform:scale(1) translateY(0);
+  width:14px;margin-right:5px;
+}
+@media (prefers-reduced-motion: reduce){
+  .btn-magnetic{transition:box-shadow .4s var(--ease),background .4s var(--ease)}
+}
+
 /* ---- agenda actions + calendario embebido ---- */
 .agenda-actions{display:flex;flex-direction:column;gap:10px;margin-top:4px}
 .alt-contact{font-size:.85rem;color:var(--carbon-soft);text-align:center;margin-top:12px}
