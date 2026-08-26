@@ -6,7 +6,8 @@ Página única autocontenida en HTML/CSS/JS, con copy en español.
 
 ## Estructura
 
-- **`index.html`** — la landing servida desde la raíz (GitHub Pages).
+- **`index.html`** — la landing servida desde la raíz (GitHub Pages), en español.
+- **`therapy/index.html`** — la misma landing en inglés, servida en `/therapy` (`patriciaduran.com/therapy`). Comparte los mismos `assets/` mediante rutas `../assets/…`.
 - **`Patricia Durán - Psicóloga.html`** — copia con el mismo contenido (archivo original del diseño).
 - **`assets/`** — recursos del sitio:
   - `hero.png` — imagen de fondo del hero (textura de ondas) y apoyo visual de la sección de precios.
