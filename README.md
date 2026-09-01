@@ -37,6 +37,6 @@ python3 -m http.server
 
 ## Notas
 
-- Algunos datos siguen como **placeholder** pendientes de confirmación: dirección (Providencia, Santiago), horario y los enlaces legales del footer.
+- Algunos datos siguen como **placeholder** pendientes de confirmación: dirección (Providencia, Santiago) y los enlaces legales del footer.
 </content>
 </invoke>
